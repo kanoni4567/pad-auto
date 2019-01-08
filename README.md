@@ -1,4 +1,4 @@
-# pad-auto
+# Pad-auto
 Puzzle & Dragons bot
 
 A puzzle and dragon bot for android devices or emulators. 
