@@ -1,5 +1,5 @@
 # pad-auto
-puzzle and dragon bot
+Puzzle & Dragons bot
 
 A puzzle and dragon bot for android devices or emulators. 
 Takes screenshots, analyzes puzzle route, and executes the route with monkeyrunner through adb connection.
