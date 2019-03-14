@@ -35,7 +35,7 @@ def classify_orbs(frame):
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV_FULL)
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-    plus = cv2.imread(r'C:\Users\saiyann\Desktop\clpadauto\pndsolver\resources\plus.png', 0)
+    plus = cv2.imread(r'C:\Users\cuish\Documents\PersonalProjects\pad-auto\resources\plus.png', 0)
     kpp, desp = sift.detectAndCompute(plus, None)
 
     xstart, xend, ystart, yend, size= get_canvas_position(frame)
